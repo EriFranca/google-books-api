@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 // Listen on Port 5000
-app.listen(port, () => console.info(`App listening on port ${port}`))
+app.listen(process.env.PORT || 5000)
 
 // Static Files
 app.use(express.static('public'));
