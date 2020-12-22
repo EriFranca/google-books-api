@@ -1,5 +1,5 @@
   $(document).ready(function() {
-
+  
     window.onload = function() {
       var search = sessionStorage.getItem("search");
       console.log(search)
